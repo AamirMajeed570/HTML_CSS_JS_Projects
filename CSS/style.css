@@ -117,3 +117,93 @@ nav button{
     border: 1px solid rgba(239, 230, 230, 0.7);
     color: white;
 }
+/* Section Portion */
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    gap: 0px;
+}
+
+section .first >div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first >div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first >div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+.first-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 180px;
+}
+
+.secImg{
+    width: 70vw;
+    padding-right: 30px;
+    width: 70vw;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+}
+.secImg img{
+    position: absolute;
+}
+
+.sec-separation{
+    height: 10px;
+    background-color: gray;
+    margin: 270px 9px
+}
+
+section .third{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.children{
+    width: 50vw;
+    padding-right: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+}
+
+.third > div {
+    height: 69vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -161px;
+}
+
+.third > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.third > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bolder;
+    
+}
+.third-separation{
+    height: 10px;
+    background-color: gray;
+    margin: 31px 9px;
+}
