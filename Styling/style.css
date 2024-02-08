@@ -1,0 +1,13 @@
+.container{
+    border: 2px solid red;
+    width: 400px;
+    margin: 10px 10px 17px 0px;
+    padding: 10px 2px 5px 90px; /*Top,Right,Bottom,Left*/
+}
+
+.sec-container{
+    border: 2px solid red;
+    width: 400px;
+    margin: 10px 2px 4px 0px; /*Top,Right,Bottom,Left*/
+    padding: 10px 2px 5px 90px;
+}
