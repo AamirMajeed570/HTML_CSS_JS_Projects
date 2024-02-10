@@ -5,7 +5,66 @@ body {
     box-sizing: border-box;
 }
 
-.header {
+.header{
+    border: 2px solid red;
+    height: 30px;
+    background-color: rgb(9, 81, 81);
+    color: black;
+    padding: 4px;
+    text-align: center;
+    font-size: 26px;
+    margin: 4px;
+}
+
+.nav{
+    border: 2px solid red;
+    height: 30px;
+    background-color: rgb(20, 194, 194);
+    color: black;
+    padding: 4px;
+    text-align: center;
+    font-size: 26px;
+    margin: 4px;
+}
+
+.container{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.aside{
+    border: 2px solid red;
+    width: 725px;
+    text-align: center;
+}
+.article{
+    border: 4px solid black;
+    background-color: coral;
+    color: black;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    border: 2px solid rgb(8, 6, 6);
+    width: 800px;
+    text-align: center;
+    position: relative;
+}
+.section > div{
+    border-bottom: 0;
+}
+.footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+/* .header {
     background-color: #333;
     color: #fff;
     padding: 10px;
@@ -43,4 +102,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+} */
