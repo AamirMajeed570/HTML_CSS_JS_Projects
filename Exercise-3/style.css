@@ -1,0 +1,7 @@
+.container{
+    width: 429px;
+    height: 75vh;
+    border: 2px solid black;
+    margin: auto;
+    background-color: azure;
+}
