@@ -1,0 +1,59 @@
+:root{
+    --color:rgb(163, 34, 34);
+    --seccolor:rgb(29, 111, 114);
+    --thirdcolor:rgb(61, 61, 206);
+    --fontColor:black;
+}
+.container{
+    width: 100vw;
+    height: 20vh;
+    border: 2px solid black;
+    background-color: var(--seccolor);
+}
+
+.container ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.container ul li{
+    padding: 10px 12px;
+    font-size: larger;
+    font-weight: 800;
+    
+}
+
+.container ul li a{
+    color: var(--fontColor);
+    text-decoration: none;
+}
+
+@media screen and (max-width:500px) {
+    body{
+        background-color:var(--seccolor);
+    }
+    .container ul li{
+        padding: 6px 8px;
+        font-size: larger;
+        font-weight: 600;    
+    }
+    .container ul li a{
+        color: var(--fontColor);
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background-color:var(--thirdcolor);
+    }
+    .container ul li{
+        padding: 8px 10px;
+        font-size: larger;
+        font-weight: 600;    
+    }
+    .container ul li a{
+        color: var(--fontColor);
+        text-decoration: none;
+    }
+}
