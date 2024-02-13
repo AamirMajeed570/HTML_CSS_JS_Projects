@@ -1,8 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 :root{
     --color:rgb(163, 34, 34);
     --seccolor:rgb(29, 111, 114);
     --thirdcolor:rgb(61, 61, 206);
     --fontColor:black;
+    --white:white;
 }
 .container{
     width: 100vw;
@@ -28,22 +33,29 @@
     text-decoration: none;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:320px) {
     body{
         background-color:var(--seccolor);
     }
+    .container{
+        width: 100vw;
+        height: 18vh;
+        background-color: #045055;
+    }
     .container ul li{
+        margin: 3px 4px;
         padding: 6px 8px;
         font-size: larger;
-        font-weight: 600;    
+        font-weight: 600;  
+        /* background-color: var(--fontColor);   */
     }
     .container ul li a{
-        color: var(--fontColor);
+        color: var(--white);
         text-decoration: none;
     }
 }
 
-@media screen and (max-width:700px) {
+@media screen and (min-width:700px) {
     body{
         background-color:var(--thirdcolor);
     }
