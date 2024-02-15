@@ -111,3 +111,56 @@ main{
     
     margin-top: 85px;
 }
+
+.center{
+    width: 100%;
+    height: 8vh;
+    /* border: 2px solid red; */
+}
+
+.center h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.badges{
+    display: flex;
+}
+
+.badges > img {
+    margin-left: 330px;
+}
+
+.stars{
+    width: 21vw;
+    height: 19vh;
+    color: white;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.badges .stars img {
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 13vw;
+    color: white;
+}
+
+.separator{
+    width: 100%;
+    height: 12vh;
+    margin-top: 24px;
+}
+
+.separator h2 {
+    background-color: yellow;
+    color: black;
+    font-weight: 600;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
