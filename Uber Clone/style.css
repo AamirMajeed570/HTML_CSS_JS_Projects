@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100vw;
+    color: white;
+}
+
+.left-nav {
+    background-color: black;
+    height: 12vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav ul{
+    display: flex;
+}
