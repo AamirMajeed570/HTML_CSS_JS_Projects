@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+    background-color: black;
+}
 nav{
     height: 10vh;
-    background-color: black;
     display: flex;
 }
 .logo{
@@ -82,4 +85,69 @@ nav{
     cursor: pointer;
     margin-left: 20px;
     /* margin-bottom: px; */
+}
+
+.ride{
+    background-color: black;
+    color: white;
+    height: 80vh;
+    display: flex;
+}
+
+
+.left-side{
+    width: 30vw;
+    /* border: 2px solid red; */
+    margin-left: 156px;
+    margin-top: 204px;
+}   
+
+
+.ride .left-side h2{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.ride .left-side p{
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+.ride .left-side form{
+    display: flex;
+    flex-direction: column;
+}
+
+.ride .left-side form 
+#location,#destination,button
+{
+    width: 24vw;
+    height: 10vh;
+    border-radius: 15px;
+    font-size: 34px;
+    margin: 4px;
+}
+
+.ride .left-side form 
+#location::placeholder{
+    font-size: 24px;
+    padding-left: 10px;
+}
+.ride .left-side form 
+#destination::placeholder{
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.ride .left-side button{
+    width: 12vw;
+    margin-top: 20px;
+}
+
+.right-side{
+    margin: 60px;
 }
