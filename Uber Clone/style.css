@@ -199,3 +199,30 @@ nav{
     font-size: 17px;
     color: black;
 }
+
+.car1{
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 63px;
+}
+
+.car2{
+    background-color: white;
+    display: flex;
+}
+
+.car2 .get-started button{
+    margin-left: -200px;
+}
+
+.separator{
+    height: 25vh;
+    background-color: #f5ecec;
+}
+
+.separator h1{
+    font-size: 67px;
+    padding-top: 48px;
+    padding-left: 28px;
+}
