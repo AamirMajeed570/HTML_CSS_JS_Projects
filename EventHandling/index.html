@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Events</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>You Pressed the <span id="span"></span></h2>
+    </div>
+    <script>
+        document.addEventListener("keydown", (event) => {
+            console.log(event)
+            if (event.key === " ") {
+                document.getElementById('span').innerText = "space"
+            } else {
+                document.getElementById('span').innerText = event.key;
+
+            }
+        });
+    </script>
+</body>
+
+</html>
