@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <style>
+            .card{
+                width: 300px;
+                height: 400px;
+                border: 2px solid;
+                margin: auto;
+                /* transition: all 1s ease-in; */
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-size: larger;
+                transition: all 1s ease-in-out;
+            }
+            .text:hover p{
+                transform: scale(0.9);
+            }
+            .img-card img{
+                width: 300px;
+                height: 300px;
+                transition: all 1s ease-in;
+            }
+            .img-card:hover img{
+                transform: scale(0.2);
+            }
+            .img-card:hover{
+                background-image: url('./Lamp2.png');
+                background-repeat: no-repeat;
+                background-position: top;
+                background-image: url('./landing.avif');
+                background-repeat: no-repeat;
+                background-position: bottom;
+                background-color: #4d8d52;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <div class="img-card">
+                <img src="./teacher1.png" alt="" srcset="">
+            </div>
+             <div class="text"> 
+                <p>Online Learning</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div> 
+        </div>
+    </body>
+</html>
