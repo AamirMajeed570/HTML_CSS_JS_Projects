@@ -7,7 +7,7 @@ btn.addEventListener('click',function(){
     }
     else{
         let li = document.createElement('li');
-        li.innerHTML = inputBox.value;
+        li.innerHTML = inputBox.value + `<button onclick=\"deleteTask(this)\">Delete</button>`;
         myTasks.appendChild(li);
     }
     inputBox.value = ""
@@ -22,3 +22,8 @@ function showTask(){
     myTasks.innerHTML = localStorage.getItem("data")
 }
 showTask()
+
+function deleteTask(taskElement){
+    taskElement.parentNode.remove()
+    saveData()
+}
