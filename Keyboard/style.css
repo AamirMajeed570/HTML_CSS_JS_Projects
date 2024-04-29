@@ -1,0 +1,13 @@
+.color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+table , td{
+    padding: 10px 12px;
+    background-color: #058324;
+    color: black;
+    font-size: x-large;
+
+}

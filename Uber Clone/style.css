@@ -4,7 +4,7 @@
 }
 body{
 
-    background-color: black;
+    background-color: black !important;
 }
 nav{
     height: 10vh;
@@ -151,3 +151,105 @@ nav{
 .right-side{
     margin: 60px;
 }
+
+.car{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 360px;
+    background-color: #fff;
+    padding-top: 20px;
+    display: flex;
+}
+
+.driver-car{
+    width: 843px;
+    height: 723px;
+    margin-top: 44px;
+    padding-left: 150px;
+}
+
+.drive{
+    width: 25vw;
+    background-color: #fff;
+    color: rgb(4, 4, 3);
+    margin: 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.drive h2{
+    font-size: 60px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+.get-started button{
+    width: 180px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    /* margin-left: -15px; */
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.get-started a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.car1{
+    background-color: white;
+    color: black;
+    display: flex;
+    padding: 63px;
+}
+
+.car2{
+    background-color: white;
+    display: flex;
+}
+
+.car2 .get-started button{
+    margin-left: -200px;
+}
+
+.separator{
+    height: 25vh;
+    background-color: #f5ecec;
+}
+
+.separator h1{
+    font-size: 67px;
+    padding-top: 48px;
+    padding-left: 28px;
+}
+
+footer{
+    width: 100%;
+    height: 65vh;
+    color: white;
+    display: flex;
+}
+.products,
+.global,
+.travel,
+.company{
+    width: 25vw;
+    /* text-align: center; */
+    padding: 100px;
+}
+
+.products,
+.global,
+.travel,
+.company,
+ul li{
+    list-style-type: none;
+    padding-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
