@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+div {
+    background-image: url(./Images/BannerBg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* width: 862px; */
+    height: 977px;
+    left: 868px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+nav {
+    width: 100%;
+    height: 78px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logo {
+    width: 182px;
+    height: 68px;
+    background: #fff !important;
+}
+
+.logo span {
+    font-family: Reem Kufi;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 67.5px;
+    text-align: left;
+    color: #FE9E0D;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px;
+}
+
+nav ul li a {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.6px;
+    /* text-align: left; */
+    color: black;
+    padding: 30px 40px;
+}
+/* Middle Section CSS code Starts Here */
+.text{
+    height: 300px;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    
+}   
